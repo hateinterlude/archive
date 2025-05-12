@@ -2,8 +2,8 @@
 I use XOS, a free debloated version of Windows 11. [XOS Discord](https://discord.gg/XTYEjZNPgX)
 
 ## The following software will not work after setup:
-Intel XTU
-Windows Defender & Security Center & System Guard & SmartScreen & Guarded Host
+- Intel XTU
+- Windows Defender & Security Center & System Guard & SmartScreen & Guarded Host
 
 If you sign in to your Microsoft Account at any point, select “Microsoft apps only”, otherwise this will break your sign in.
 
