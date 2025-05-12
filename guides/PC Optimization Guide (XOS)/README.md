@@ -79,7 +79,7 @@ So do not do anything. Your system will reboot.
 5. After Chocolatey is installed, type the number of which browser you want, like so (e.g. 2 for Google Chrome):
 ![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image6.png?raw=true)
 6. If you want to import your passwords that you have inside the CSV file, open Google Chrome, type in chrome://password-manager/settings in the URL bar and next to “Import passwords” click on “Select file”, then select the CSV file that you saved beforehand.
-### For NVIDIA GPU
+> For NVIDIA GPU
 - Go back and click on “3-setup-gpu-drivers”. Go to “nvidia” and open NVCleanstall.
 - Install the best driver for your system, select which components you want (e.g. ShadowPlay), click “Next” and install your drivers.
 - Go into the “tweaks-run-after-driver-installation” folder. Presumably, you should be able to import the xos.nip file. You can also disable NVIDIA telemetry by running “breaks-geforce-experience-disable-nvidia-telemetry.bat”. 
