@@ -39,7 +39,7 @@ Click on “Option” and ensure that “Secure Boot Support” is checked
 Click on the “Install” button
 Click “Yes” (twice)
 Ventoy should be installed, open Explorer and you should see something like this:
-![image](https://github.com/hateinterlude/archive/edit/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image2.png)
+[image](https://github.com/hateinterlude/archive/edit/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image2.png)
 Take the two ISOs you downloaded (Windows 11 and xOS 11) and place them into Ventoy like so: 
 Hold SHIFT while clicking on Restart. This should take you to a blue screen with options.
 Click on “Use a device”
