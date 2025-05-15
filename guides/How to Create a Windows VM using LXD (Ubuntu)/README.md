@@ -18,7 +18,7 @@ snap install distrobuilder --classic
 
 A Spice client to view your VM:
 ```
-sudo apt-get install -y --no-install-recommends virt-viewer
+sudo apt install virt-viewer
 ```
 > You can use virt-viewer or any other Spice client
 
