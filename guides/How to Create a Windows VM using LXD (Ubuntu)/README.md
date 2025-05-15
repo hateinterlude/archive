@@ -25,7 +25,7 @@ sudo apt-get install -y --no-install-recommends virt-viewer
 ## Creating the VM
 Run these commands in order:
 ```
-sudo distrobuilder repack-windows [PATHTOTHEISOHERE] win11.iso
+sudo distrobuilder repack-windows [PATHTOTHEDOWNLOADEDISOHERE] win11.iso
 ```
 > Change win11 to whatever name you'd like
 
