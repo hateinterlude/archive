@@ -25,7 +25,7 @@ Let me know if you need any extra help @ twitter: alyxrtw
 - Ensure that Secure Boot is enabled (Look into your BIOS settings)
 - Download [Ventoy (.zip)](https://www.ventoy.net/en/download.html) 
 > Allows you to select between multiple ISOs from a USB to install on your system
-- Download [the latest version of XOS from their Discord]([https://drive.google.com/file/d/1F9xoCeYEPrrDPtZErHPvzHZ406V2pgrI](https://discord.gg/XTYEjZNPgX)) 
+- Download [the latest version of XOS from their Discord](https://discord.gg/XTYEjZNPgX)
 > The current debloated Windows I use
 - Download [Windows 11 ISO](https://www.microsoft.com/en-us/software-download/windows11) 
 > Normal Windows 11 ISO in whatever case that something goes wrong - scroll down to “Download Windows 11 Disk Image (ISO) for x64 devices”, select “Windows 11 (multi-edition ISO for x64 devices)“ from the dropdown menu, click “Download Now”, select “English” (either one) and click “Confirm”, then finally download the ISO by clicking on “64-bit Download”
