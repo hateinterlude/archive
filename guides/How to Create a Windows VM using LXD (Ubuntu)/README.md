@@ -37,10 +37,10 @@ sudo lxd init
 ```
 sudo lxc init win11 --empty --vm -c security.secureboot=false -c limits.cpu=4 -c limits.memory=8GB
 ```
-> win11 is the name of the VM, you can change this to whatever you want
-change `security.secureboot` to true if you'd like secure boot enabled
-change `limits.cpu` to how many cores you want for your VM
-change `limits.memory` to how many GB you would like to allocate for your VM
+> win11 is the name of the VM, you can change this to whatever you want <br/>
+change `security.secureboot` to true if you'd like secure boot enabled <br/>
+change `limits.cpu` to how many cores you want for your VM <br/>
+change `limits.memory` to how many GB you would like to allocate for your VM <br/>
 
 ```
 sudo lxc config device add win11 vtpm tpm path=/dev/tpm0
