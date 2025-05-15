@@ -5,7 +5,11 @@ These instructions are straightforward for creating a Windows 11 virtual machine
 ## Requirements:
 Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11)
 > Or use any Windows ISO of your choice
-LXD: ```snap install lxd```
+LXD:
+```
+snap install lxd
+```
+
 Distrobuilder: `snap install distrobuilder --classic` 
 A Spice client to view your VM: `sudo apt-get install -y --no-install-recommends virt-viewer` 
 > You can use virt-viewer or any other Spice client
