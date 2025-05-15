@@ -20,9 +20,9 @@ Run these commands in order:
 
 `sudo lxc init win11 --empty --vm -c security.secureboot=false -c limits.cpu=4 -c limits.memory=8GB`
 > win11 is the name of the VM, you can change this to whatever you want <br/>
-> change `security.secureboot` to true if you'd like secure boot enabled <br/>
-> change `limits.cpu` to how many cores you want for your VM <br/>
-> change `limits.memory` to how many GB you would like to allocate for your VM <br/>
+change `security.secureboot` to true if you'd like secure boot enabled <br/>
+change `limits.cpu` to how many cores you want for your VM <br/>
+change `limits.memory` to how many GB you would like to allocate for your VM <br/>
 `sudo lxc config device add win11 vtpm tpm path=/dev/tpm0` <br/>
 > this enables TPM and is a requirement for installing regular Windows 11, skip if not installing an OS that requires TPM <br/>
 `sudo lxc config device override win11 root size=50GB` <br/>
