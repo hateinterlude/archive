@@ -3,11 +3,11 @@
 These instructions are straightforward for creating a Windows 11 virtual machine off the bat, read comments under commands if you would like guidance on how to change anything else
 
 ## Requirements:
-- Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11)
+Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11) <br/>
 > or use any Windows ISO of your choice
-- LXD: `snap install lxd`
-- Distrobuilder: `snap install distrobuilder --classic`
-- A Spice client to view your VM: `sudo apt-get install -y --no-install-recommends virt-viewer`
+LXD: `snap install lxd` <br/>
+Distrobuilder: `snap install distrobuilder --classic` <br/>
+A Spice client to view your VM: `sudo apt-get install -y --no-install-recommends virt-viewer` <br/>
 > You can use virt-viewer or any other Spice client
 
 ## Creating the VM
@@ -20,18 +20,18 @@ Run these commands in order:
 
 `sudo lxc init win11 --empty --vm -c security.secureboot=false -c limits.cpu=4 -c limits.memory=8GB`
 > win11 is the name of the VM, you can change this to whatever you want <br/>
-> change `security.secureboot` to true if you'd like secure boot enabled
-> change `limits.cpu` to how many cores you want for your VM
-> change `limits.memory` to how many GB you would like to allocate for your VM
-`sudo lxc config device add win11 vtpm tpm path=/dev/tpm0`
-> this enables TPM and is a requirement for installing regular Windows 11, skip if not installing an OS that requires TPM
-`sudo lxc config device override win11 root size=50GB`
-> change `size` to how big you want your virtual drive to be, recommended is 52GB
+> change `security.secureboot` to true if you'd like secure boot enabled <br/>
+> change `limits.cpu` to how many cores you want for your VM <br/>
+> change `limits.memory` to how many GB you would like to allocate for your VM <br/>
+`sudo lxc config device add win11 vtpm tpm path=/dev/tpm0` <br/>
+> this enables TPM and is a requirement for installing regular Windows 11, skip if not installing an OS that requires TPM <br/>
+`sudo lxc config device override win11 root size=50GB` <br/>
+> change `size` to how big you want your virtual drive to be, recommended is 52GB <br/>
 `sudo lxc config device add win11 install disk source=[ABSOLUTEPATHTOYOURPACKEDISO] boot.priority=10`
-> [ABSOLUTEPATHTOYOURPACKEDISO e.g. /home/[YOURUSERHERE]/Downloads/win11.iso
-`sudo lxc start win11`
-`sudo lxc console win11 --type=vga`
-> if you have an error when running this command, run `xhost + local:` and run `sudo lxc console win11 --type=vga` again
+> [ABSOLUTEPATHTOYOURPACKEDISO e.g. /home/[YOURUSERHERE]/Downloads/win11.iso <br/>
+`sudo lxc start win11` <br/>
+`sudo lxc console win11 --type=vga` <br/>
+> if you have an error when running this command, run `xhost + local:` and run `sudo lxc console win11 --type=vga` again <br/>
 
 Hit any key to run the installer from the ISO
 Once Windows is installed, stop your VM (see below) and remove the install drive with:
