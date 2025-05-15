@@ -11,7 +11,7 @@ Let me know if you need any extra help @ twitter: alyxrtw
 
 ## Requirements
 - USB stick (I used a 32gb one, 16gb should be enough)
-- A Hard drive (big enough for backing up data and storing other files needed for setup) 
+- An external hard drive (big enough for backing up data and storing other files needed for setup)
 - A lot of patience and a few hours at most
 
 ## What to do beforehand
