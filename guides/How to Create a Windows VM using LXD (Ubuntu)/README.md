@@ -8,7 +8,7 @@ These instructions are straightforward for creating a Windows 11 virtual machine
 - LXD: `snap install lxd`
 - Distrobuilder: `snap install distrobuilder --classic`
 - A Spice client to view your VM: `sudo apt-get install -y --no-install-recommends virt-viewer`
-> You can use virt-viewer or any other Spice client like 
+> You can use virt-viewer or any other Spice client
 
 ## Creating the VM
 Run these commands in order:
