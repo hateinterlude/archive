@@ -4,7 +4,7 @@ These instructions are straightforward for creating a Windows 11 virtual machine
 
 ## Requirements:
 Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11)
-  or use any Windows ISO of your choice
+  - or use any Windows ISO of your choice
 
 LXD: `snap install lxd` <br/>
 
