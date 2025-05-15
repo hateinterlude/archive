@@ -27,7 +27,7 @@ Run these commands in order:
 ```
 sudo distrobuilder repack-windows [PATHTOTHEDOWNLOADEDISOHERE] win11.iso
 ```
-> Change win11 to whatever name you'd like
+> Change win11 to whatever name you'd like, if you want
 
 ```
 sudo lxd init
