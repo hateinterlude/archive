@@ -1,6 +1,7 @@
-Requirements:
+# How to Create a Windows VM using LXD (Ubuntu)
 
-Grab Windows ISO from [here](https://www.microsoft.com/en-us/software-download/windows11)
+Requirements:
+Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11)
 
 `snap install distrobuilder --classic`
 sudo distrobuilder repack-windows /path/to/iso win.iso
