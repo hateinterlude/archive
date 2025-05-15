@@ -19,7 +19,7 @@ Run these commands in order:
 > hit ENTER for everything (default settings) unless you want to change anything
 
 `sudo lxc init win11 --empty --vm -c security.secureboot=false -c limits.cpu=4 -c limits.memory=8GB`
-> win11 is the name of the VM, you can change this to whatever you want <br/ >
+> win11 is the name of the VM, you can change this to whatever you want <br/>
 > change `security.secureboot` to true if you'd like secure boot enabled
 > change `limits.cpu` to how many cores you want for your VM
 > change `limits.memory` to how many GB you would like to allocate for your VM
