@@ -4,7 +4,7 @@ These instructions are straightforward for creating a Windows 11 virtual machine
 
 ## Requirements:
 Windows 11 ISO - download [here](https://www.microsoft.com/en-us/software-download/windows11)
-  - or use any Windows ISO of your choice
+> Or use any Windows ISO of your choice
 
 LXD: `snap install lxd` <br/>
 
@@ -15,8 +15,10 @@ A Spice client to view your VM: `sudo apt-get install -y --no-install-recommends
 
 ## Creating the VM
 Run these commands in order:
-`sudo distrobuilder repack-windows [PATHTOTHEISOHERE] win11.iso`
-> change win11 to whatever name you'd like
+```
+sudo distrobuilder repack-windows [PATHTOTHEISOHERE] win11.iso
+```
+> Change win11 to whatever name you'd like
 
 `sudo lxd init`
 > hit ENTER for everything (default settings) unless you want to change anything
