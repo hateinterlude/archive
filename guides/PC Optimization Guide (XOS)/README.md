@@ -7,7 +7,7 @@ I use XOS, a free debloated version of Windows 11. [XOS Discord](https://discord
 
 If you sign in to your Microsoft Account at any point, select “Microsoft apps only”, otherwise this will break your sign in.
 
-Let me know if you need any extra help @ twitter/discord: alyxrtw
+Let me know if you need any extra help @ twitter: alyxrtw
 
 ## Requirements
 - USB stick (I used a 32gb one, 16gb should be enough)
