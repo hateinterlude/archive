@@ -42,15 +42,15 @@ Let me know if you need any extra help @ twitter: alyxrtw
 6. Click on the “Install” button
 7. Click “Yes” (twice)
 8. Ventoy should be installed, open Explorer and you should see something like this:
-![image](/images/image2.png)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image2.png)
 9. Take the two ISOs you downloaded (Windows 11 and xOS 11) and place them into Ventoy like so: 
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image11.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image11.png)
 10. Hold SHIFT while clicking on Restart. This should take you to a blue screen with options.
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image5.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image5.png)
 11. Click on “Use a device”
 12. Click on your USB drive. Your system will now boot into your USB drive.
 13. If your screen says Security Violation, just hit ENTER, click any key to perform MOK management and it’ll take you to this screen:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image12.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image12.png)
 14. Use your arrow keys to select “Enroll key from disk” and hit ENTER
 15. Hit ENTER on “VTOYEFI”
 16. Select “ENROLL_THIS_KEY_IN_MOKMANAGER.cer” and hit ENTER
@@ -58,13 +58,13 @@ Let me know if you need any extra help @ twitter: alyxrtw
 18. Select “Yes” and hit ENTER
 19. Select “Reboot” and hit ENTER
 20. You should be taken to Ventoy, with this screen:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image8.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image8.png)
 21. Use your arrow keys to select the XOS .iso and hit ENTER
 22. Select “Boot in normal mode” and hit ENTER
 23. You should now see the Windows logo show.
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image4.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image4.png)
 24. Wait a while for setup to prepare, then you should be seeing this screen:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image10.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image10.png)
 25. Select your time format and keyboard method as you’d like. Click “Next”
 26. You should see your drive with Windows installed. Click on Format. Please make sure you have a backup of your data as all will be lost after this. Click on the drive you just formatted and click “Next”.
 27. Wait for Windows to install. Your system should reboot into the Windows Setup.
@@ -72,7 +72,7 @@ Let me know if you need any extra help @ twitter: alyxrtw
 29. Wait for Windows Setup to complete.
 30. Connect your hard drive with your network drivers on it. Install your network drivers on your system. You should now be able to connect to Wi-Fi and/or use Ethernet.
 31. You should see this screen:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image14.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image14.png)
 So do not do anything. Your system will reboot.
 ## Setting up XOS
 1. After your system reboots, there should be an XOS folder on your desktop. Open it.
@@ -80,7 +80,7 @@ So do not do anything. Your system will reboot.
 3. Click on “1-localization”. You can sync your time by clicking on “sync-date-and-time” and under “Additional settings”, click on “Sync now”
 4. Go back and click on “2-browser-installations”. Open “browser-install.exe”
 5. After Chocolatey is installed, type the number of which browser you want, like so (e.g. 2 for Google Chrome):
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image6.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image6.png)
 6. If you want to import your passwords that you have inside the CSV file, open Google Chrome, type in chrome://password-manager/settings in the URL bar and next to “Import passwords” click on “Select file”, then select the CSV file that you saved beforehand.
 > ### For NVIDIA GPU
 > - Go back and click on “3-setup-gpu-drivers”. Go to “nvidia” and open NVCleanstall.
@@ -100,10 +100,10 @@ After installing Valorant and opening it, go to C:\Users\[your username here]\Ap
 This is what I have done personally to my system and I recommend you do the same as well.
 ## Windows Settings
 XOS allows apps to be run as admin without asking for user confirmation. I changed this by going to Control Panel -> User Accounts -> User Accounts and clicking on “Change User Account Control settings”. Set the notch to the 2nd or 3rd one like so:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image13.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image13.png)
 
 When you press WIN + R at the same time, you see this box:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image9.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image9.png)
 I do not want every single task run here created with admin privileges so to change this, I typed in regedit, opened Registry Editor and went to Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System.
 Double click “EnableLUA” and change “Value data” from “0” to “1”. Click “OK” and close Registry Editor. Reboot system. The changes should be applied.
 
@@ -115,11 +115,11 @@ Disable Hardware Acceleration by going into Settings, scrolling all the way down
 Here is [Vencord](https://vencord.dev/download/), a way to modify your Discord Client and enable plugins, themes, etc. Make sure that normal Discord is installed first (you can install it from [here](https://discord.com/download)) and then open VencordInstaller.exe. Click on “Install OpenAsar”, click “Accept” and click on “Install OpenAsar” again. OpenAsar allows your Discord to run and open faster. You can also install Vencord if you’d like by just clicking on “Install”.
 
 Here is my Discord Game Overlay settings:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image3.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image3.png)
 Everything is disabled because any overlay has a negative impact on my performance. I also recommend that you turn off Hardware Acceleration by going to “Advanced” -> checking the toggle OFF for “Hardware Acceleration”.
 ## Taskbar Modification
 I use [TranslucentTB](https://apps.microsoft.com/detail/9pf4kz2vn4w9) to make my taskbar transparent like so:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image1.png?raw=true)
+![image](/PC%20Optimization%20Guide%20(XOS)/images/image1.png)
 ## Disabling Steam Webhelper
 Steam Webhelper is known to consume a lot of CPU while playing games on Steam. Download [this file](https://github.com/hateinterlude/archive/raw/fee6ece791aef447e379bfd9bf4275c976fdca93/files/umpdc.dll) and place it in C:\Program Files (x86)\Steam to allow the option to disable Webhelper.
 
