@@ -1,3 +1,6 @@
+> [!NOTE]
+> Last updated May 16th, 2025
+
 # How to optimise your PC
 I use XOS, a free debloated version of Windows 11. [XOS Discord](https://discord.gg/XTYEjZNPgX)
 
@@ -39,7 +42,7 @@ Let me know if you need any extra help @ twitter: alyxrtw
 6. Click on the “Install” button
 7. Click “Yes” (twice)
 8. Ventoy should be installed, open Explorer and you should see something like this:
-![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image2.png?raw=true)
+![image](/images/image2.png)
 9. Take the two ISOs you downloaded (Windows 11 and xOS 11) and place them into Ventoy like so: 
 ![image](https://github.com/hateinterlude/archive/blob/main/guides/PC%20Optimization%20Guide%20(XOS)/images/image11.png?raw=true)
 10. Hold SHIFT while clicking on Restart. This should take you to a blue screen with options.
