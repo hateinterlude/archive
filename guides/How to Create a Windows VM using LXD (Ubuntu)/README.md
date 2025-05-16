@@ -67,7 +67,7 @@ sudo lxc console win11 --type=vga
 ```
 > If you run into an error `Authorization required, but no authorization protocol specified` after running this command, run `xhost + local:` and run `sudo lxc console win11 --type=vga` again
 
-Hit any key to run the installer from the ISO
+Hit any key to run the installer from the ISO <br/>
 Once Windows is installed, stop your VM (see below) and remove the install drive with:
 ```
 sudo lxc config device remove win11 install
