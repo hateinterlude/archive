@@ -68,7 +68,9 @@ sudo lxc console win11 --type=vga
 
 Hit any key to run the installer from the ISO
 Once Windows is installed, stop your VM (see below) and remove the install drive with:
-`sudo lxc config device remove win11 install`
+```
+sudo lxc config device remove win11 install
+```
 
 ## Post-Creation
 Starting and Stopping the VM:
