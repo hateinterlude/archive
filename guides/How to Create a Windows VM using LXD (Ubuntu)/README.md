@@ -1,3 +1,6 @@
+> [!NOTE]
+> Last updated May 16th, 2025
+
 # How to Create a Windows VM using LXD (Ubuntu)
 
 These instructions are straightforward for creating a Windows 11 virtual machine off the bat, read comments under commands if you would like guidance on how to change anything else
