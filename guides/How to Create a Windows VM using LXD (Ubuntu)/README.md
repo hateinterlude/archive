@@ -50,7 +50,8 @@ sudo lxc config device add win11 vtpm tpm path=/dev/tpm0
 ```
 sudo lxc config device override win11 root size=50GB
 ```
-> change `size` to how big you want your virtual drive to be, recommended is 52GB
+> change `size` to how big you want your virtual drive to be, recommended is 52GB <br/>
+make sure you have enough storage otherwise your Windows might bootloop after some extra space is used
 
 ```
 sudo lxc config device add win11 install disk source=[ABSOLUTEPATHTOYOURPACKEDISO] boot.priority=10
@@ -108,4 +109,7 @@ start ms-cxh://setaddlocalonly​
 Type in your preferred username and password if you'd like
 Click no for everything analytics wise and send only required data
 
+### Activate Windows
+Hit WIN+X, open Terminal Admin and run this command:
+```irm https://get.activated.win | iex```
 
