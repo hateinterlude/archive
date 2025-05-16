@@ -20,7 +20,7 @@ snap install distrobuilder --classic
 ```
 sudo apt install virt-viewer
 ```
-> You can use virt-viewer or any other Spice client
+> You can use `virt-viewer` or any other Spice client
 
 ## Creating the VM
 Run these commands in order:
@@ -32,26 +32,26 @@ sudo distrobuilder repack-windows [PATHTOTHEDOWNLOADEDISOHERE] win11.iso
 ```
 sudo lxd init
 ```
-> hit ENTER for everything (default settings) unless you want to change anything
+> Hit ENTER for everything (default settings) unless you want to change anything
 
 ```
 sudo lxc init win11 --empty --vm -c security.secureboot=false -c limits.cpu=4 -c limits.memory=8GB
 ```
-> win11 is the name of the VM, you can change this to whatever you want <br/>
-change `security.secureboot` to true if you'd like secure boot enabled <br/>
-change `limits.cpu` to how many cores you want for your VM <br/>
-change `limits.memory` to how much GB you would like to allocate for your VM <br/>
+> `win11` is the name of the VM, you can change this to whatever you want <br/>
+Change `security.secureboot` to true if you'd like secure boot enabled <br/>
+Change `limits.cpu` to how many cores you want for your VM <br/>
+Change `limits.memory` to how much GB you would like to allocate for your VM <br/>
 
 ```
 sudo lxc config device add win11 vtpm tpm path=/dev/tpm0
 ```
-> this enables TPM and is a requirement for installing regular Windows 11, skip if not installing an OS that requires TPM
+> This enables TPM and is a requirement for installing regular Windows 11, skip if not installing an OS that requires TPM
 
 ```
 sudo lxc config device override win11 root size=50GB
 ```
-> change `size` to how big you want your virtual drive to be, recommended is 52GB <br/>
-make sure you have enough storage otherwise your Windows might bootloop after some extra space is used
+> Change `size` to how big you want your virtual drive to be, recommended is 52GB <br/>
+Make sure you have enough storage otherwise your Windows might bootloop after some extra space is used
 
 ```
 sudo lxc config device add win11 install disk source=[ABSOLUTEPATHTOYOURPACKEDISO] boot.priority=10
@@ -65,7 +65,11 @@ sudo lxc start win11
 ```
 sudo lxc console win11 --type=vga
 ```
-> if you have an error when running this command, run `xhost + local:` and run `sudo lxc console win11 --type=vga` again
+> If you run into an error `Authorization required, but no authorization protocol specified` after running this command, run
+```
+xhost + local:
+```
+and run `sudo lxc console win11 --type=vga` again
 
 Hit any key to run the installer from the ISO
 Once Windows is installed, stop your VM (see below) and remove the install drive with:
@@ -78,23 +82,22 @@ Starting and Stopping the VM:
 ```
 sudo lxc stop [YOURVMNAME] --force
 ```
-> stop the VM
+> Stop the VM
 
 ```
 sudo lxc start [YOURVMNAME]
 ```
-> start the VM
+> Start the VM
 
 ```
 sudo lxc console [YOURVMNAME] --type=vga
 ```
-> open the display for the VM
+> Open the display for the VM
 
 ```
 sudo lxc delete [YOURVMNAME]
 ```
-> delete your VM
-
+> Delete your VM
 
 ## Post installation (Windows 11)
 ### I do not want to sign in to my Microsoft account
