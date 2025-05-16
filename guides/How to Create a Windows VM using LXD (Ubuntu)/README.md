@@ -110,6 +110,10 @@ Type in your preferred username and password if you'd like
 Click no for everything analytics wise and send only required data
 
 ### Activate Windows
-Hit WIN+X, open Terminal Admin and run this command:
-```irm https://get.activated.win | iex```
+1. Hit WIN+X, open Terminal (Admin) and run this command:
+```
+irm https://get.activated.win | iex
+```
+2. Once loaded, hit 1 to activate Windows and wait
+3. Done!
 
