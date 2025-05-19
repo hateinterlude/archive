@@ -85,7 +85,7 @@ So do not do anything. Your system will reboot.
 > ### For NVIDIA GPU
 > - Go back and click on “3-setup-gpu-drivers”. Go to “nvidia” and open NVCleanstall.
 > - Install the best driver for your system, select which components you want (e.g. ShadowPlay), click “Next” and install your drivers.
-> - Go into the “tweaks-run-after-driver-installation” folder. Presumably (I do not have a NVIDIA card), you should be able to import the xos.nip file. You can also disable NVIDIA telemetry by running “breaks-geforce-experience-disable-nvidia-telemetry.bat”. 
+> - Go into the “tweaks-run-after-driver-installation” folder. You can import the xos.nip file. You can also disable NVIDIA telemetry by running “breaks-geforce-experience-disable-nvidia-telemetry.bat”. 
 
 7. Install the rest of the drivers for your system.
 8. You can enable Bluetooth by going into “configure-services-and-features” -> “bluetooth” and running “enable-bluetooth.bat”.
