@@ -1,5 +1,5 @@
 > [!NOTE]
-> Last updated May 16th, 2025
+> Last updated May 19th, 2025
 
 # How to optimise your PC
 I use XOS, a free debloated version of Windows 11. [XOS Discord](https://discord.gg/XTYEjZNPgX)
@@ -96,8 +96,8 @@ So do not do anything. Your system will reboot.
 ## Valorant Config
 After installing Valorant and opening it, go to C:\Users\[your username here]\AppData\Local\VALORANT\Saved\ and replace the Config folder with the one you have on your backup drive.
 
-# Recommendations/What I have done personally
-This is what I have done personally to my system and I recommend you do the same as well.
+# Extras
+This is what I have done personally to my system, you can do this if you want
 ## Windows Settings
 XOS allows apps to be run as admin without asking for user confirmation. I changed this by going to Control Panel -> User Accounts -> User Accounts and clicking on “Change User Account Control settings”. Set the notch to the 2nd or 3rd one like so:
 ![image](/guides/PC%20Optimization%20Guide%20(XOS)/images/image13.png)
